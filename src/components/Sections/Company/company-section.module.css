@@ -1,0 +1,88 @@
+.company-section {
+  padding: 0;
+}
+
+.company-section__list {
+  --c-marquee-item-gap: 37px;
+}
+
+.company-section__list img {
+  filter: grayscale(1);
+  transition: filter 0.3s;
+}
+
+.company-section__list img:hover {
+  filter: grayscale(0);
+  transition: filter 0.3s;
+}
+
+.company-section__list:last-child {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .company-section {
+    padding: 0 var(--container);
+  }
+}
+
+@media (min-width: 1366px) {
+  .company-section {
+    padding: 0 var(--container);
+  }
+
+  .company-section__list {
+    --c-marquee-item-gap: 96px;
+  }
+
+  .company-section__list:last-child {
+    display: none;
+  }
+}
+
+@media (min-width: 1366px) {
+  .company-section {
+    margin-top: 70px;
+  }
+}
+
+.hero-section {
+  margin-top: 10px;
+}
+
+.company-section,
+.services-section,
+.case-studies-section,
+.our-working-process-section,
+.team-section,
+.testimonials-section,
+.contact-us-section {
+  margin-top: 60px;
+}
+
+.cta-section {
+  margin-top: 70.53px;
+}
+
+@media (min-width: 1366px) {
+  .hero-section {
+    padding-bottom: 34px;
+  }
+
+  .company-section {
+    margin-top: 70px;
+  }
+
+  .services-section,
+  .case-studies-section,
+  .our-working-process-section,
+  .team-section,
+  .contact-us-section {
+    margin-top: 140px;
+  }
+
+  .cta-section,
+  .testimonials-section {
+    margin-top: 100px;
+  }
+}

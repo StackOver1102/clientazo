@@ -1,6 +1,23 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Header": {
+    "login": "Sign Up",
+    "menu": {
+      "aboutUs": "About us",
+      "services": "Services",
+      "useCases": "Use Cases",
+      "pricing": "Pricing",
+      "blog": "Blog"
+    }
+  },
+  "Section": {
+    "Hero": {
+      "title": "Boost Your Online Presence with a Single Click",
+      "description": "Increasing Your Social Media Following is 1 Click Away",
+      "viewService": "View service now"
     }
   }
+}

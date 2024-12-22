@@ -1,0 +1,48 @@
+.languageSelector {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .selectorButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+  
+  .flagIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 8px;
+    list-style: none;
+    padding: 8px 0;
+    min-width: 160px;
+  }
+  
+  .dropdownItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #f0f0f0;
+  }
+  

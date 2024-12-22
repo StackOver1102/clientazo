@@ -2,5 +2,22 @@
     "HomePage": {
         "title": "Xin chào thế giới",
         "about": "Đi tới trang tiếp theo"
+    },
+    "Header": {
+        "login": "Đăng ký",
+        "menu": {
+            "aboutUs": "Về chúng tôi",
+            "services": "Dịch vụ",
+            "useCases": "Các trường hợp sử dụng",
+            "pricing": "Bảng giá",
+            "blog": "Blog"
+        }
+    },
+    "Section": {
+        "Hero": {
+            "title": "Nâng Tầm Hiện Diện Trực Tuyến Chỉ Với Một Cú Nhấp Chuột",
+            "description": "Tăng Lượng Người Theo Dõi Mạng Xã Hội Chỉ Với 1 Cú Nhấp",
+            "viewService": "Xem dịch vụ ở đây"
+        }
     }
 }

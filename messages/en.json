@@ -4,7 +4,8 @@
     "about": "Go to the about page"
   },
   "Header": {
-    "login": "Sign Up",
+    "login": "Sign In",
+    "signUp": "Sign Up",
     "menu": {
       "aboutUs": "About us",
       "services": "Services",
@@ -18,6 +19,66 @@
       "title": "Boost Your Online Presence with a Single Click",
       "description": "Increasing Your Social Media Following is 1 Click Away",
       "viewService": "View service now"
+    },
+    "Service": {
+      "service": "Service",
+      "description": "At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:",
+      "sortBy": "Sort by",
+      "sort": "sort",
+      "tableService": {
+        "ID": "ID",
+        "service": "Service",
+        "description": "Description",
+        "rating": "Ratings",
+        "Q&A": "Q&A",
+        "startTime": "Start Time",
+        "minOrder": "Min Order",
+        "maxOrder": "Max Order",
+        "speed": "Speed",
+        "price per 1000": "Price per 1000",
+        "show": "Show",
+        "edit": "Edit",
+        "showMore": "Show More",
+        "viewAll": "View All Services",
+        "showLess": "Show Less"
+      }
+    },
+    "Cta": {
+      "title": "Let’s make things happen",
+      "description": "Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.",
+      "button": "Get you free proposal"
+    },
+    "CaseStudy": {
+      "caseStudy": "Case Studies",
+      "description": "Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies."
+    },
+    "OurWorking": {
+      "title": "Our Working Process",
+      "description": "Step-by-Step Guide to Achieving Your Business Goals"
+    },
+    "Team": {
+      "title": "Team",
+      "description": "Meet the skilled and experienced team behind our successful digital marketing strategies",
+      "button": "See all team"
+    },
+    "Testimonials": {
+      "title": "Testimonials",
+      "description": "Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
+    }
+  },
+  "Footer": {
+    "title": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "socialMedia": "Social Media",
+    "button": "Subscribe to news",
+    "menu": {
+      "aboutUs": "About us",
+      "services": "Services",
+      "useCases": "Use Cases",
+      "pricing": "Pricing",
+      "blog": "Blog"
     }
   }
 }

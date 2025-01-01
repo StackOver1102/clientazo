@@ -1,23 +1,84 @@
 {
-    "HomePage": {
-        "title": "Xin chào thế giới",
-        "about": "Đi tới trang tiếp theo"
-    },
-    "Header": {
-        "login": "Đăng ký",
-        "menu": {
-            "aboutUs": "Về chúng tôi",
-            "services": "Dịch vụ",
-            "useCases": "Các trường hợp sử dụng",
-            "pricing": "Bảng giá",
-            "blog": "Blog"
-        }
-    },
-    "Section": {
-        "Hero": {
-            "title": "Nâng Tầm Hiện Diện Trực Tuyến Chỉ Với Một Cú Nhấp Chuột",
-            "description": "Tăng Lượng Người Theo Dõi Mạng Xã Hội Chỉ Với 1 Cú Nhấp",
-            "viewService": "Xem dịch vụ ở đây"
-        }
+  "HomePage": {
+    "title": "Xin chào thế giới",
+    "about": "Đi tới trang tiếp theo"
+  },
+  "Header": {
+    "login": "Đăng nhập",
+    "signUp": "Đăng ký",
+    "menu": {
+      "aboutUs": "Về chúng tôi",
+      "services": "Dịch vụ",
+      "useCases": "Các trường hợp sử dụng",
+      "pricing": "Bảng giá",
+      "blog": "Blog"
     }
+  },
+  "Section": {
+    "Hero": {
+      "title": "Nâng Tầm Hiện Diện Trực Tuyến Chỉ Với Một Cú Nhấp Chuột",
+      "description": "Tăng Lượng Người Theo Dõi Mạng Xã Hội Chỉ Với 1 Cú Nhấp",
+      "viewService": "Xem dịch vụ ở đây"
+    },
+    "Service": {
+      "service": "Dịch vụ",
+      "description": "Tại công ty chúng tôi, chúng tôi cung cấp một loạt các dịch vụ để hỗ trợ doanh nghiệp phát triển và thành công trực tuyến. Các dịch vụ này bao gồm:",
+      "sortBy": "Sắp xếp theo",
+      "sort": "sắp xếp",
+      "tableService": {
+        "ID": "ID",
+        "service": "Dịch vụ",
+        "description": "Mô tả",
+        "rating": "Đánh giá",
+        "Q&A": "Q&A",
+        "startTime": "Thời gian bắt đầu",
+        "minOrder": "Số lượng tối thiểu",
+        "maxOrder": "Số lượng tối đa",
+        "speed": "Tốc độ",
+        "price per 1000": "Giá tiền cho 1000",
+        "show": "Xem",
+        "edit": "Chỉnh sửa",
+        "showMore": "Xem thêm",
+        "viewAll": "Xem tất cả dịch vụ",
+        "showLess": "Thu gọn"
+      }
+    },
+    "Cta": {
+      "title": "Hãy làm việc ngay",
+      "description": "Liên hệ chúng tôi ngay để tìm hiểu thêm về các dịch vụ của chúng tôi có thể giúp doanh nghiệp của bạn phát triển và thành công trực tuyến.",
+      "button": "Nhận bản báo giá"
+    },
+    "CaseStudy": {
+      "caseStudy": "Nghiên cứu",
+      "description": "Xem các trường hợp sử dụng của chúng tôi để biết cách chúng tôi có thể giúp doanh nghiệp của bạn phát triển và thành công trực tuyến."
+    },
+    "OurWorking": {
+      "title": "Quy trình làm việc",
+      "description": "Hướng dẫn từng bước để đạt được mục tiêu kinh doanh của bạn"
+    },
+    "Team": {
+      "title": "Đội ngũ",
+      "description": "Nhóm chuyên gia và kinh nghiệm để thành công trong chiến lược quảng cáo trực tuyến",
+      "button": "Xem tất cả đội ngũ"
+    },
+    "Testimonials": {
+      "title": "Nhận xét",
+      "description": "Nhận xét từ khách hàng hài lòng: Đọc nhận xét của chúng tôi để biết thêm về dịch vụ quảng cáo trực tuyến của chúng tôi"
+    }
+  },
+  "Footer": {
+    "title": "Liên hệ chúng tôi",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "socialMedia": "Mạng xã hội",
+    "button": "Đăng ký",
+    "menu": {
+      "aboutUs": "Về chúng tôi",
+      "services": "Dịch vụ",
+      "useCases": "Các trường hợp sử dụng",
+      "pricing": "Bảng giá",
+      "blog": "Blog"
+    }
+  }
 }

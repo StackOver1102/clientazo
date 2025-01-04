@@ -6,8 +6,9 @@ interface LayoutContentProps {
 }
 
 const LayoutContent: React.FC<LayoutContentProps> = ({ children, className }) => {
+  console.log(className);
   return (
-    <div className={`flex flex-col w-full p-6 bg-gray-100 ${className}`}>
+    <div className={`flex flex-col p-6 bg-gray-100 ${className}`}>
       {children}
     </div>
   );

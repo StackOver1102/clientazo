@@ -35,7 +35,11 @@ const LiItem: React.FC<LiItemProps> = ({
   );
 };
 
-const Sidebar = () => {
+interface SidebarProps {
+  className?: string;
+}
+
+const Sidebar: React.FC<SidebarProps> = ({ className }) => {
   const [darkMode, setDarkMode] = useState(true);
   const [isCollapsed, setIsCollapsed] = useState(false);
 
@@ -57,7 +61,7 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`h-screen fixed top-0 left-0 overflow-y-auto p-4 ${
+      className={`h-screen fixed top-0 left-0 overflow-y-auto p-4 ${className} ${
         isCollapsed ? "w-[80px]" : "w-[224px]"
       } flex flex-col justify-between ${
         darkMode ? "bg-gray-900 text-gray-300" : "bg-white text-gray-800"

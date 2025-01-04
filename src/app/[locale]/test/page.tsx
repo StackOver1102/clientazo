@@ -261,7 +261,7 @@ export default function Test() {
   return (
     <div className="flex">
       <Sidebar />
-      <LayoutContent className="ml-52">
+      <LayoutContent>
         <div className="p-6">
           <Heading>Test</Heading>
           <Table rows={tableData} />

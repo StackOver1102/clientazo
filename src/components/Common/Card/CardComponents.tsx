@@ -35,11 +35,11 @@ const CardComponents: React.FC<CardProps> = ({
       </div>
       <div className="flex flex-col w-2/3">
         <Link href="/your-link-path" className="mb-2">
-          <Badge size="small" color="green" text="Dịch vụ" />
+          <Badge size="medium"  text="Dịch vụ" />
           <span className="ml-2 text-center">{title}</span>
         </Link>
         <div className="flex items-center mb-2">
-          <Rating rating={4.5} reviewCount={126} />
+          <Rating rating={4.5} />
           <span className="text-[12px] text-gray-500">
             308 Reviews | Đơn hoàn thành: 1944 | Khiếu nại: 0.0%
           </span>

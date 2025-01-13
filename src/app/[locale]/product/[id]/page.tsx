@@ -4,7 +4,9 @@ import RadioComponent from "@/components/Common/Radio/RadioComponent";
 import Rating from "@/components/Common/Rating/Rating";
 import TabComponent from "@/components/Common/Tabs/TabComponent";
 import LayoutContent from "@/components/Layout/Content/LayoutContent";
-import Sidebar from "@/components/Layout/Sidebar";
+// import HeaderAfterLogin from "@/components/Layout/Header/HeaderAfterLogin";
+// import Sidebar from "@/components/Layout/Sidebar";
+// import AppSidebar from "@/components/Layout/Sidebar/app-sidebar";
 import { formatMoney } from "@/utils/formatMoney";
 import { useLocale } from "next-intl";
 // import Image from "next/image";
@@ -35,8 +37,9 @@ function ProductDetail() {
 ];
   return (
     <>
-      <Sidebar />
-      <LayoutContent className="ml-48">
+      {/* <Sidebar /> */}
+      {/* <HeaderAfterLogin className="ml-48"/> */}
+      <LayoutContent >
         <div className="bg-gray-100">
           <div className="container mx-auto px-4 py-8">
             <div className="flex flex-wrap -mx-4">

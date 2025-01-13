@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 
 // Load custom Google fonts
 const geistSans = Geist({
@@ -32,7 +33,7 @@ export default async function RootLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as typeof routing.locales[number])) {
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
   }
 
@@ -44,9 +45,11 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
         // style={{padding: 0}}
       >
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <NuqsAdapter>
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </NuqsAdapter>
       </body>
     </html>
   );

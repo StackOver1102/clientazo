@@ -10,10 +10,11 @@ import {
 import { IconHamburger } from "../../Common/Icons/hamburger";
 import { mcn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
-import LanguageSelector from "@/components/Common/Select/LanguageSelector";
+// import LanguageSelector from "@/components/Common/Select/LanguageSelector";
 import Button from "@/components/Common/Table/Button";
 import Typography from "@/components/Common/Typography/typography";
 import { Link } from "@/i18n/routing";
+import { CountryDropdown } from "@/components/ui/country-dropdown";
 
 export default function Header() {
   const t = useTranslations("Header");
@@ -21,7 +22,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navbarRef = useRef<HTMLDivElement>(null);
   const { width } = useViewport();
-
+  const [selectedCountry, setSelectedCountry] = useState<string>('USA');
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
@@ -95,7 +96,13 @@ export default function Header() {
           ))}
           {/* <Link href="/login">{t("login")}</Link>
           <Link href="/login">{t("signUp")}</Link> */}
-          <LanguageSelector />
+          <CountryDropdown
+              placeholder="Select country"
+              defaultValue={selectedCountry}
+              onChange={(e) => setSelectedCountry(e.alpha3)}
+              slim
+            />
+          {/* <LanguageSelector /> */}
         </ul>
       </nav>
       <div

@@ -14,7 +14,7 @@ import { Separator } from "@radix-ui/react-separator";
 import Link from "next/link";
 import Image from "next/image";
 
-const Cart = () => {
+export const Cart = () => {
   const { handleCartClick } = useShoppingCart();
   const cartCount = 1;
   return (
@@ -28,8 +28,6 @@ const Cart = () => {
     </div>
   );
 };
-
-export default Cart;
 
 export const CartModal = () => {
   const { shouldDisplayCart, handleCartClick, removeItem } = useShoppingCart();

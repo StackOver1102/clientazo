@@ -57,9 +57,12 @@ export default function Header() {
     { title: t("menu.blog"), url: "#blog" },
     { title: t("login"), url: "/login" },
     { title: t("signUp"), url: "/register" },
-
   ];
 
+  // const handleChangeLanguage = (code: string) => {
+  //   setSelectedLanguage(code);
+  //   router.push(`/${code}`);
+  // };
   return (
     <>
       <nav

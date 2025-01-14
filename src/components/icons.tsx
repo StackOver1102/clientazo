@@ -32,7 +32,9 @@ import {
     UserX2Icon,
     X,
     ShoppingBasket,
-    Banknote
+    Banknote,
+    AppWindowMac,
+    History
   } from 'lucide-react';
   
   export type Icon = LucideIcon;
@@ -45,7 +47,9 @@ import {
     product: LucideShoppingBag,
     order: ShoppingBasket,
     deposit: Banknote,
+    appWindowMac: AppWindowMac,
     spinner: Loader2,
+    history: History,
     kanban: CircuitBoardIcon,
     chevronLeft: ChevronLeft,
     chevronRight: ChevronRight,
